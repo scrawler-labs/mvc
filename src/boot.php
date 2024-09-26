@@ -1,13 +1,11 @@
 <?php
 
+//For error during boot
+$whoops = new \Whoops\Run;
+$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+$whoops->register();
 
 $app = new \Scrawler\App();
-
-$app->config()->load(__DIR__ . '/config/app.php');
-
-if($app->config()->get('general.env') == 'dev'){
-    $app->config()->set('debug', true);
-}
 
 // Register Woops to handle exceptions
 $app->registerHandler('exception', function($e){
@@ -21,6 +19,13 @@ $app->registerHandler('exception', function($e){
     }
     return $whoops->handleException($e);
 });
+
+// Load Configurations
+$app->config()->load(__DIR__ . '/../config');
+
+if($app->config()->get('general.env') == 'dev'){
+    $app->config()->set('debug', true);
+}
 
 // Register Directories
 $app->registerAutoRoute(__DIR__ . '/controllers', 'App\Controllers');

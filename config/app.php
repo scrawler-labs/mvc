@@ -6,7 +6,7 @@ return [
  * General Configurations
  */
     'general' => [
-        'env' => getenv('APP_ENV') ?? 'dev',
+        'env' => env('APP_ENV') ?? 'dev',
         'https' => false,
     ],
 
@@ -15,11 +15,11 @@ return [
  */
     'database' => [
 
-        'host' => getenv('DB_HOST') ?? '',
-        'database' => getenv('DB_HOST') ?? '',
-        'username' => getenv('DB_USER') ?? '',
-        'password' => getenv('DB_PASSWORD') ?? '',
-        'dbname' => getenv('DB_NAME') ?? '',
+        'host' => env('DB_HOST') ?? '',
+        'database' => env('DB_HOST') ?? '',
+        'username' => env('DB_USER') ?? '',
+        'password' => env('DB_PASSWORD') ?? '',
+        'dbname' => env('DB_NAME') ?? '',
         'driver' => 'pdo_mysql',
         'port' => '3306',
 

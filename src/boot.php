@@ -5,6 +5,10 @@ $whoops = new \Whoops\Run;
 $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
 
+//Load env files
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/../',);
+$dotenv->load();
+
 $app = new \Scrawler\App();
 
 // Register Woops to handle exceptions
@@ -30,7 +34,7 @@ if($app->config()->get('general.env') == 'dev'){
 // Register Directories
 $app->registerAutoRoute(__DIR__ . '/controllers', 'App\Controllers');
 
-$app->template()->registerDir(__DIR__ . '/views',__DIR__ . '../storage/cache',__DIR__ . '/../assets');
+$app->template()->registerDir(__DIR__ . '/views',__DIR__ . '/../storage/framework/cache',__DIR__ . '/../assets');
 
 $app->storage()->setAdapter(new \Scrawler\Adapters\Storage\LocalAdapter(__DIR__ . '/../storage/app'));
 

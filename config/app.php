@@ -17,7 +17,7 @@ return [
 
         'host' => env('DB_HOST') ?? '',
         'database' => env('DB_HOST') ?? '',
-        'username' => env('DB_USER') ?? '',
+        'user' => env('DB_USER') ?? '',
         'password' => env('DB_PASSWORD') ?? '',
         'dbname' => env('DB_NAME') ?? '',
         'driver' => 'pdo_mysql',

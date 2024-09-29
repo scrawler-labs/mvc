@@ -1448,16 +1448,16 @@
         },
         {
             "name": "scrawler/app",
-            "version": "v1.1.4",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrawler-labs/app.git",
-                "reference": "cc8136caa66f56713c96d2f09f09c6587c269c9f"
+                "reference": "e5296b54c015412f338f517f72db1098530e0923"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrawler-labs/app/zipball/cc8136caa66f56713c96d2f09f09c6587c269c9f",
-                "reference": "cc8136caa66f56713c96d2f09f09c6587c269c9f",
+                "url": "https://api.github.com/repos/scrawler-labs/app/zipball/e5296b54c015412f338f517f72db1098530e0923",
+                "reference": "e5296b54c015412f338f517f72db1098530e0923",
                 "shasum": ""
             },
             "require": {
@@ -1489,22 +1489,22 @@
             "description": "scrawler framework main app container",
             "support": {
                 "issues": "https://github.com/scrawler-labs/app/issues",
-                "source": "https://github.com/scrawler-labs/app/tree/v1.1.4"
+                "source": "https://github.com/scrawler-labs/app/tree/v1.2.1"
             },
-            "time": "2024-09-26T23:55:37+00:00"
+            "time": "2024-09-29T08:40:08+00:00"
         },
         {
             "name": "scrawler/arca",
-            "version": "v3.0.0",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrawler-labs/arca-orm.git",
-                "reference": "95fc5e4da187cf323318086066c97760fee2e5e9"
+                "reference": "81f21534fc36c632c4d87003ef9086978d7fcd3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrawler-labs/arca-orm/zipball/95fc5e4da187cf323318086066c97760fee2e5e9",
-                "reference": "95fc5e4da187cf323318086066c97760fee2e5e9",
+                "url": "https://api.github.com/repos/scrawler-labs/arca-orm/zipball/81f21534fc36c632c4d87003ef9086978d7fcd3c",
+                "reference": "81f21534fc36c632c4d87003ef9086978d7fcd3c",
                 "shasum": ""
             },
             "require": {
@@ -1543,9 +1543,9 @@
             "description": "Arca ORM by Scrawler",
             "support": {
                 "issues": "https://github.com/scrawler-labs/arca-orm/issues",
-                "source": "https://github.com/scrawler-labs/arca-orm/tree/v3.0.0"
+                "source": "https://github.com/scrawler-labs/arca-orm/tree/v3.1.0"
             },
-            "time": "2024-07-03T19:06:09+00:00"
+            "time": "2024-09-27T21:01:03+00:00"
         },
         {
             "name": "scrawler/blade",
@@ -1592,16 +1592,16 @@
         },
         {
             "name": "scrawler/database",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrawler-labs/database.git",
-                "reference": "03908b9fff3a90020fc588962cab782e303d227c"
+                "reference": "1b6390ac12a3bbd2f344ee3583527ab860ef1356"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrawler-labs/database/zipball/03908b9fff3a90020fc588962cab782e303d227c",
-                "reference": "03908b9fff3a90020fc588962cab782e303d227c",
+                "url": "https://api.github.com/repos/scrawler-labs/database/zipball/1b6390ac12a3bbd2f344ee3583527ab860ef1356",
+                "reference": "1b6390ac12a3bbd2f344ee3583527ab860ef1356",
                 "shasum": ""
             },
             "require": {
@@ -1629,22 +1629,22 @@
             "description": "Arca ORM integration bridge for scrawler framework",
             "support": {
                 "issues": "https://github.com/scrawler-labs/database/issues",
-                "source": "https://github.com/scrawler-labs/database/tree/v1.0.2"
+                "source": "https://github.com/scrawler-labs/database/tree/v1.1.0"
             },
-            "time": "2024-09-26T21:35:30+00:00"
+            "time": "2024-09-27T21:03:18+00:00"
         },
         {
             "name": "scrawler/http",
-            "version": "v1.0.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrawler-labs/http.git",
-                "reference": "ff6543b012c0131b3065385b469b386532654ac6"
+                "reference": "9b7211dfe0df602bc24f632d33cc74bc90ff4c95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrawler-labs/http/zipball/ff6543b012c0131b3065385b469b386532654ac6",
-                "reference": "ff6543b012c0131b3065385b469b386532654ac6",
+                "url": "https://api.github.com/repos/scrawler-labs/http/zipball/9b7211dfe0df602bc24f632d33cc74bc90ff4c95",
+                "reference": "9b7211dfe0df602bc24f632d33cc74bc90ff4c95",
                 "shasum": ""
             },
             "require": {
@@ -1677,9 +1677,9 @@
             "description": "Http component for scrawler framework",
             "support": {
                 "issues": "https://github.com/scrawler-labs/http/issues",
-                "source": "https://github.com/scrawler-labs/http/tree/v1.0.2"
+                "source": "https://github.com/scrawler-labs/http/tree/v1.1.3"
             },
-            "time": "2024-09-26T21:33:05+00:00"
+            "time": "2024-09-29T07:46:28+00:00"
         },
         {
             "name": "scrawler/router",
@@ -1739,16 +1739,16 @@
         },
         {
             "name": "scrawler/storage",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrawler-labs/storage.git",
-                "reference": "9944da5cb47e036b49828b8f922d4ea64772eb12"
+                "reference": "1a58791a7ce06ad1175823e1d061e3ccb50399a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrawler-labs/storage/zipball/9944da5cb47e036b49828b8f922d4ea64772eb12",
-                "reference": "9944da5cb47e036b49828b8f922d4ea64772eb12",
+                "url": "https://api.github.com/repos/scrawler-labs/storage/zipball/1a58791a7ce06ad1175823e1d061e3ccb50399a7",
+                "reference": "1a58791a7ce06ad1175823e1d061e3ccb50399a7",
                 "shasum": ""
             },
             "require": {
@@ -1776,9 +1776,9 @@
             "description": "storage system for scrawler framework",
             "support": {
                 "issues": "https://github.com/scrawler-labs/storage/issues",
-                "source": "https://github.com/scrawler-labs/storage/tree/v1.0.0"
+                "source": "https://github.com/scrawler-labs/storage/tree/v1.1.0"
             },
-            "time": "2024-09-26T22:59:04+00:00"
+            "time": "2024-09-29T07:44:57+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

@@ -26,7 +26,9 @@ composer create-project scrawler/mvc <project-name>
 ```
 
 ## ✨ Folder Structure
-- `assets`: your css and js assets live here
+- `public`: this should be the webroot of your server
+  - `assets`: your css and js assets live here
+  - `public`: public file of your storage are accessable via this symlink, if this symlink is broken create one yourseld 
 - `config`: global configuration files, you can add your own configurations here
 - `storage`: app caches , file storage stays here
 - `tests`: pest tests for your app lives here

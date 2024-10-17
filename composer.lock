@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c43e8479c8c0a39b30610d9758ed9c96",
+    "content-hash": "4fcd751db14048d38c2e8e5fe783562c",
     "packages": [
         {
             "name": "brick/math",
@@ -2484,16 +2484,16 @@
         },
         {
             "name": "scrawler/storage",
-            "version": "v2.0.1",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrawler-labs/storage.git",
-                "reference": "059095b67e82951575d6aea240c35f9655d619bf"
+                "reference": "33e0c67ad3886ef67c8d6eaf572373cf2e6decb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrawler-labs/storage/zipball/059095b67e82951575d6aea240c35f9655d619bf",
-                "reference": "059095b67e82951575d6aea240c35f9655d619bf",
+                "url": "https://api.github.com/repos/scrawler-labs/storage/zipball/33e0c67ad3886ef67c8d6eaf572373cf2e6decb5",
+                "reference": "33e0c67ad3886ef67c8d6eaf572373cf2e6decb5",
                 "shasum": ""
             },
             "require": {
@@ -2530,9 +2530,9 @@
             "description": "storage system for scrawler framework",
             "support": {
                 "issues": "https://github.com/scrawler-labs/storage/issues",
-                "source": "https://github.com/scrawler-labs/storage/tree/v2.0.1"
+                "source": "https://github.com/scrawler-labs/storage/tree/v2.1.0"
             },
-            "time": "2024-10-17T18:03:11+00:00"
+            "time": "2024-10-17T18:13:00+00:00"
         },
         {
             "name": "symfony/console",

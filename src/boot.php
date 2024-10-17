@@ -29,7 +29,7 @@ if(app()->config()->get('general.env') == 'dev'){
 // Register Directories
 app()->registerAutoRoute(__DIR__ . '/Controllers', 'App\Controllers');
 
-app()->template()->registerDir(__DIR__ . '/views',__DIR__ . '/../storage/framework/cache',__DIR__ . '/../assets');
+app()->template()->registerDir(__DIR__ . '/views',__DIR__ . '/../storage/framework/cache',__DIR__ . '/../public/assets');
 
 app()->storage()->setAdapter(new \Scrawler\Adapters\Storage\LocalAdapter(__DIR__ . '/../storage/app'));
 

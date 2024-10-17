@@ -1,5 +1,14 @@
 <?php
-
+/*
+ * This file is part of the Scrawler package.
+ *
+ * (c) Pranjal Pandey <its.pranjalpandey@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ * 
+ * Do not modify this file , use app.php to register your services
+ */
 
 //Load env files
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/../',);
@@ -9,13 +18,13 @@ $dotenv->load();
 // Load Configurations
 app()->config()->load(__DIR__ . '/../config');
 
+include __DIR__ . '/routes.php';
+
 if(app()->config()->get('general.env') == 'dev'){
     app()->config()->set('debug', true);
 }else{
     app()->config()->set('debug', false);
 }
-
-
 
 // Register Directories
 app()->registerAutoRoute(__DIR__ . '/Controllers', 'App\Controllers');
@@ -41,6 +50,8 @@ try{
 }catch(Doctrine\DBAL\Exception\ConnectionException){
     // Let it run peacefully unless database is used
 }
-// Run the app
 
+include __DIR__ . '/app.php';
+
+// Run the application
 app()->run();

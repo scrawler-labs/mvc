@@ -2,10 +2,12 @@
 
 namespace App\Controllers;
 
-class Main{
+class Main
+{
 
-    public function allIndex(){
+    public function allIndex()
+    {
         return view('home');
     }
-    
+
 }

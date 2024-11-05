@@ -25,4 +25,8 @@ return [
 
     ],
 
+    'middlewares'=>[
+        // Register custom middlewares here
+    ]
+
 ];
